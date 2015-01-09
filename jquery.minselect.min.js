@@ -3,7 +3,7 @@ minSelect is a jQuery plugin that gives you the ability to restyle your select f
 
 Version 1.0.0
 Full source at https://github.com/marc-andrew/minSelect
-Copyright (c) 2014 Marc Andrew http://marcandrew.net/plugins/minSelect
+Copyright (c) 2014 Marc Andrew http://marcandrew.net/plugin/minSelect
 
 MIT License (http://www.opensource.org/licenses/mit-license.html)
 */
