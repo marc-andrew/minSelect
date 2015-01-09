@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description"	content="simpleSelect" />
+	<meta name="author"			content="Marc Andrew" />
+	<meta name="publisher"		content="Marc Andrew, marcandrew.net" />
+	<meta name="keywords"		content="Marc Andrew, developer, select, html5, form, plugin" />
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="minselect.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script src="jquery.minselect.js"></script>
+
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('select').minSelect();
+	});
+
+	</script>
+
+	<title>minSelect</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<div id="main">
+
+		<h1>minSelect jQuery Plugin</h1>
+
+		<form action="#" method="post">
+			<fieldset>
+				<select name="title" id="title" title="Please Select	">
+					<option value="">Please Select</option>
+					<option value="Option 1">Option 1</option>
+					<option value="Option 2">Option 2</option>
+					<option value="Option 3">Option 3</option>
+				</select>
+
+				<select name="title" id="title2" title="Please Select 2">
+					<option value="">Please Select 2</option>
+					<option value="Option 1">Option 1</option>
+					<option value="Option 2">Option 2</option>
+				</select>
+
+				<select name="title" id="title3" title="Please Select 3">
+					<option value="">Please Select 3</option>
+					<option value="Option 1">Option 1</option>
+					<option value="Option 2">Option 2</option>
+					<option value="Option 3">Option 3</option>
+					<option value="Option 4">Option 4</option>
+					<option value="Option 5">Option 5</option>
+					<option value="Option 6">Option 6</option>
+					<option value="Option 7">Option 7</option>
+					<option value="Option 8">Option 8</option>
+					<option value="Option 9">Option 9</option>
+				</select>
+			</fieldset>
+		</form>
+
+		<p><a href="https://github.com/marc-andrew/minSelect" title="Fork on GitHub">Fork on GitHub</a></p>
+
+	</div>
+</div>
+
+</body>
+</html>
